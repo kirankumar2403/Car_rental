@@ -5,7 +5,7 @@ import { auth, googleProvider } from "../firebase/config";
 import { useNavigate } from "react-router-dom";
 function Login() {
   const [loading, setLoading] = useState(false);
-  const [user, setUser] = useState(null);
+  const [setUser] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {

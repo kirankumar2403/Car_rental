@@ -1,0 +1,52 @@
+@use "../global" as *;
+
+.login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-gray;
+  padding: 2rem;
+
+  &__container {
+    background-color: $bg-white;
+    padding: 4rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    width: 40rem;
+    max-width: 100%;
+    text-align: center;
+
+    h1 {
+      font-size: $h3-size;
+      font-family: $titles-font;
+      font-weight: 700;
+      margin-bottom: 2.5rem;
+      color: $text-black;
+    }
+
+    &__google-btn {
+      width: 100%;
+      padding: 1.5rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: $bg-white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      font-size: $p-size;
+      font-family: $text-font;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: $bg-gray;
+      }
+
+      svg {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}

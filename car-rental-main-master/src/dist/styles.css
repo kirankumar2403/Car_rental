@@ -2099,6 +2099,23 @@ footer {
   background-color: #fa4226;
 }
 
+.ad-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem;
+  text-align: center;
+  overflow: hidden;
+}
+@media (max-width: 700px) {
+  .ad-container {
+    padding: 1.5rem 1.25rem;
+  }
+}
+.ad-container--compact {
+  padding: 1.5rem 2.5rem;
+}
+
 .hero-pages {
   width: 100%;
   height: 41rem;
@@ -2626,21 +2643,4 @@ footer {
 }
 .login__container__google-btn svg {
   font-size: 2.4rem;
-}
-
-.ad-container {
-  width: 100%;
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 2rem 2.5rem;
-  text-align: center;
-  overflow: hidden;
-}
-@media (max-width: 700px) {
-  .ad-container {
-    padding: 1.5rem 1.25rem;
-  }
-}
-.ad-container--compact {
-  padding: 1.5rem 2.5rem;
 }

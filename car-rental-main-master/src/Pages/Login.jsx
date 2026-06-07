@@ -5,15 +5,12 @@ import { auth, googleProvider } from "../firebase/config";
 import { useNavigate } from "react-router-dom";
 function Login() {
   const [loading, setLoading] = useState(false);
-  const [setUser] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
-      setUser(currentUser);
       if (currentUser) {
-        // Redirect to home page if user is already logged in
-        navigate('/');
+        navigate("/");
       }
     });
 

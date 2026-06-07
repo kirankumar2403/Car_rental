@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
+import GoogleAd from "../components/GoogleAd";
 import CarImg1 from "../images/cars-big/audi-box.png";
 import CarImg2 from "../images/cars-big/golf6-box.png";
 import CarImg3 from "../images/cars-big/toyota-box.png";
@@ -274,6 +275,7 @@ function Models() {
             </div>
           </div>
         </div>
+        <GoogleAd />
         <div className="book-banner">
           <div className="book-banner__overlay"></div>
           <div className="container">

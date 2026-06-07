@@ -6,7 +6,7 @@ import Banner from "../components/Banner";
 import ChooseUs from "../components/ChooseUs";
 import Testimonials from "../components/Testimonials";
 import Faq from "../components/Faq";
-
+import GoogleAd from "../components/GoogleAd";
 import Footer from "../components/Footer";
 
 function Home() {
@@ -16,8 +16,10 @@ function Home() {
       <BookCar />
       <PlanTrip />
       <PickCar />
+      <GoogleAd />
       <Banner />
       <ChooseUs />
+      <GoogleAd className="ad-container--compact" />
       <Testimonials />
       <Faq />
       <Footer />

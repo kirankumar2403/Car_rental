@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
 import Testimonials from "../components/Testimonials";
+import GoogleAd from "../components/GoogleAd";
 
 function TestimonialsPage() {
   return (
@@ -8,6 +9,7 @@ function TestimonialsPage() {
       <section className="testimonial-page">
         <HeroPages name="Testimonials" />
         <Testimonials />
+        <GoogleAd />
         <div className="book-banner">
           <div className="book-banner__overlay"></div>
           <div className="container">

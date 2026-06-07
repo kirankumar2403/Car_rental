@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
 import PlanTrip from "../components/PlanTrip";
+import GoogleAd from "../components/GoogleAd";
 import AboutMain from "../images/about/about-main.jpg";
 import Box1 from "../images/about/icon1.png";
 import Box2 from "../images/about/icon2.png";
@@ -56,6 +57,7 @@ function About() {
           <PlanTrip />
         </div>
       </section>
+      <GoogleAd />
       <div className="book-banner">
         <div className="book-banner__overlay"></div>
         <div className="container">
